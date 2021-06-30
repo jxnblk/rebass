@@ -19,8 +19,8 @@
     "styled-components": "NODE_ENV=styled babel src -d styled-components"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.0",
-    "@emotion/styled": "^10.0.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
     "@styled-system/css": "^5.0.0",
     "@styled-system/should-forward-prop": "^5.0.0",
     "styled-system": "^5.0.0"

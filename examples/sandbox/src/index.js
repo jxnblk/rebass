@@ -2,7 +2,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import preset from '@rebass/preset'
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from '@emotion/react'
 // OR import { ThemeProvider } from 'styled-components'
 import {
   Box,

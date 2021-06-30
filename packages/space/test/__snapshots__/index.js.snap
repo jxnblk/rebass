@@ -5,12 +5,12 @@ exports[`renders 1`] = `null`;
 exports[`renders children 1`] = `
 Array [
   <div
-    className=" css-0"
+    className=" emotion-0"
   >
     Hello
   </div>,
   <h2
-    className=" css-0"
+    className=" emotion-0"
   >
     hi
   </h2>,

@@ -75,15 +75,15 @@ Note: to opt-out of theme-based styles, use the `css` prop instead, which will n
 
 Because Reflexbox follows the [Theme Specification][], all themes built for use with [Styled System][], [Theme UI][], or other related libraries are compatible with Reflexbox.
 
-To add a theme to an application, import the `ThemeProvider` component from `emotion-theming` and pass a custom theme object in.
+To add a theme to an application, import the `ThemeProvider` component from `@emotion/react` and pass a custom theme object in.
 
 ```sh
-npm i emotion-theming
+npm i @emotion/react
 ```
 
 ```jsx
 import React from 'react'
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from '@emotion/react'
 import { Flex, Box } from 'reflexbox'
 
 const theme = {

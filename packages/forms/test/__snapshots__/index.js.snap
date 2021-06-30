@@ -34,15 +34,15 @@ exports[`Checkbox renders 1`] = `
   color: gray;
 }
 
-input:checked ~ .emotion-1 {
+input:checked~.emotion-1 {
   display: block;
 }
 
-input:checked ~ .emotion-1 {
+input:checked~.emotion-1 {
   color: primary;
 }
 
-input:focus ~ .emotion-1 {
+input:focus~.emotion-1 {
   color: primary;
   background-color: highlight;
 }
@@ -62,15 +62,15 @@ input:focus ~ .emotion-1 {
   color: gray;
 }
 
-input:checked ~ .emotion-2 {
+input:checked~.emotion-2 {
   display: none;
 }
 
-input:checked ~ .emotion-2 {
+input:checked~.emotion-2 {
   color: primary;
 }
 
-input:focus ~ .emotion-2 {
+input:focus~.emotion-2 {
   color: primary;
   background-color: highlight;
 }
@@ -117,6 +117,7 @@ exports[`Input renders 1`] = `
   padding: 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   font-size: inherit;
   line-height: inherit;
@@ -183,15 +184,15 @@ exports[`Radio renders 1`] = `
   color: gray;
 }
 
-input:checked ~ .emotion-1 {
+input:checked~.emotion-1 {
   display: block;
 }
 
-input:checked ~ .emotion-1 {
+input:checked~.emotion-1 {
   color: primary;
 }
 
-input:focus ~ .emotion-1 {
+input:focus~.emotion-1 {
   background-color: highlight;
 }
 
@@ -210,15 +211,15 @@ input:focus ~ .emotion-1 {
   color: gray;
 }
 
-input:checked ~ .emotion-2 {
+input:checked~.emotion-2 {
   display: none;
 }
 
-input:checked ~ .emotion-2 {
+input:checked~.emotion-2 {
   color: primary;
 }
 
-input:focus ~ .emotion-2 {
+input:focus~.emotion-2 {
   background-color: highlight;
 }
 
@@ -264,6 +265,7 @@ exports[`Select renders 1`] = `
   padding: 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   font-size: inherit;
   line-height: inherit;
@@ -325,6 +327,7 @@ exports[`Textarea renders 1`] = `
   padding: 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   font-size: inherit;
   line-height: inherit;

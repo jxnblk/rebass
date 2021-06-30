@@ -8,8 +8,8 @@
     "start": "react-scripts start"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.1",
     "@rebass/preset": "^4.0.5",
-    "emotion-theming": "^10.0.14",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "rebass": "^4.0.7",

@@ -13,7 +13,7 @@ For general usage with [Emotion][], pass the theme preset to Emotion's `ThemePro
 
 ```jsx
 import React from 'react'
-import { ThemeProvider } from 'emotion-theming'
+import { ThemeProvider } from '@emotion/react'
 import theme from '@rebass/preset'
 
 export default props =>
