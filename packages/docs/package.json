@@ -25,7 +25,7 @@
     "@theme-ui/sidenav": "^0.3.1",
     "countries-list": "^2.4.3",
     "deepmerge": "^4.0.0",
-    "gatsby": "^2.13.48",
+    "gatsby": "^3.8.1",
     "gatsby-plugin-catch-links": "^2.1.2",
     "gatsby-plugin-mdx": "^1.0.22",
     "gatsby-plugin-react-helmet": "^3.1.3",
