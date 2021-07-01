@@ -16,7 +16,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@testing-library/react": "^10.0.4",
+    "@testing-library/react": "^12.0.0",
     "jest": "^25.2.4",
     "jest-emotion": "^10.0.14",
     "jest-styled-components": "^6.3.3",
