@@ -26,6 +26,9 @@
   "dependencies": {
     "reflexbox": "^4.0.6"
   },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
   "repository": "rebassjs/rebass",
   "bugs": {
     "url": "https://github.com/rebassjs/rebass/issues"

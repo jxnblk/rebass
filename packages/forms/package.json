@@ -7,7 +7,11 @@
     "prepare": "rebass-bundler"
   },
   "dependencies": {
-    "reflexbox": "^4.0.6"
+    "reflexbox": "^4.0.6",
+    "@styled-system/should-forward-prop": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
   },
   "repository": "rebassjs/rebass",
   "bugs": {
