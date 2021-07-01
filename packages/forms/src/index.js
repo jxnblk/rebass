@@ -144,7 +144,7 @@ const RadioIcon = props =>
       {...props}
       __css={{
         display: 'none',
-        'input:checked ~ &': {
+        'input:checked ~ &&': {
           display: 'block',
         }
       }}
@@ -153,7 +153,7 @@ const RadioIcon = props =>
       {...props}
       __css={{
         display: 'block',
-        'input:checked ~ &': {
+        'input:checked ~ &&': {
           display: 'none',
         }
       }}
@@ -220,7 +220,7 @@ const CheckboxIcon = props =>
       {...props}
       __css={{
         display: 'none',
-        'input:checked ~ &': {
+        'input:checked ~ &&': {
           display: 'block',
         }
       }}
@@ -229,7 +229,7 @@ const CheckboxIcon = props =>
       {...props}
       __css={{
         display: 'block',
-        'input:checked ~ &': {
+        'input:checked ~ &&': {
           display: 'none',
         }
       }}
