@@ -176,8 +176,8 @@ export const Radio = forwardRef(({
         position: 'absolute',
         opacity: 0,
         zIndex: -1,
-        width: 1,
-        height: 1,
+        width: 24,
+        height: 24,
         overflow: 'hidden',
       }}
     />
@@ -252,8 +252,8 @@ export const Checkbox= forwardRef(({
         position: 'absolute',
         opacity: 0,
         zIndex: -1,
-        width: 1,
-        height: 1,
+        width: 24,
+        height: 24,
         overflow: 'hidden',
       }}
     />

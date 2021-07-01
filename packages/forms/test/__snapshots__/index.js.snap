@@ -14,8 +14,8 @@ exports[`Checkbox renders 1`] = `
   position: absolute;
   opacity: 0;
   z-index: -1;
-  width: 1px;
-  height: 1px;
+  width: 24px;
+  height: 24px;
   overflow: hidden;
 }
 
@@ -163,8 +163,8 @@ exports[`Radio renders 1`] = `
   position: absolute;
   opacity: 0;
   z-index: -1;
-  width: 1px;
-  height: 1px;
+  width: 24px;
+  height: 24px;
   overflow: hidden;
 }
 
