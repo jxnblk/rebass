@@ -35,6 +35,6 @@
     "react-helmet": "^6.0.0",
     "rebass": "^4.0.7",
     "remark-slug": "^5.1.2",
-    "theme-ui": "^0.3.1"
+    "theme-ui": "^0.10.0"
   }
 }
