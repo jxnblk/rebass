@@ -2,20 +2,19 @@ import React, { useState } from 'react'
 import { ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 import { Box, Flex } from 'rebass'
+import { Label, Select } from '@rebass/forms'
 import * as themeui from '@theme-ui/presets'
 import merge from 'lodash.merge'
 import rebass from '@rebass/preset'
 import material from '@rebass/preset-material'
 
 const presets = {
-  ...themeui,
   rebass,
   material,
+  ...themeui,
 }
 
 const themes = [
-  'rebass',
-  'material',
   ...Object.keys(presets)
 ]
 
@@ -32,20 +31,27 @@ export default props => {
         </Helmet>
       )}
       <Flex mb={4}>
-        <Box as='label'>
-          Theme:
-          {' '}
-          <select
+        <Box>
+          <Label htmlFor='theme' mb="1">
+            Theme:
+            {' '}
+          </Label>
+          <Select
             id='theme'
             name='theme'
-            value={theme}
+            sx={{
+              width: 'auto'
+            }}
+            px="3"
+            defaultValue={theme}
             onChange={e => {
               setTheme(e.target.value)
-            }}>
+            }}
+          >
             {themes.map(name => (
               <option key={name}>{name}</option>
             ))}
-          </select>
+          </Select>
         </Box>
       </Flex>
       <ThemeProvider theme={demoTheme}>
