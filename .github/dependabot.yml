@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "10:00"
+    timezone: US/Eastern
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby
+    versions:
+    - 2.29.3
+    - 2.31.1
+    - 2.32.8
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.2
+    - 11.2.3
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.10
+  - dependency-name: "@babel/preset-react"
+    versions:
+    - 7.12.10
