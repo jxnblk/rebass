@@ -1,12 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox renders 1`] = `
-.emotion-3 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-}
-
 .emotion-0 {
   box-sizing: border-box;
   margin: 0;
@@ -17,6 +11,15 @@ exports[`Checkbox renders 1`] = `
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .emotion-1 {

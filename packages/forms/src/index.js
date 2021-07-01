@@ -242,7 +242,9 @@ export const Checkbox= forwardRef(({
   variant = 'checkbox',
   ...props
 }, ref) =>
-  <Box>
+  <Box
+    sx={{ flexShrink: 0 }}
+  >
     <Box
       ref={ref}
       as='input'
