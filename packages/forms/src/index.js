@@ -249,7 +249,7 @@ export const Checkbox= forwardRef(({
       type='checkbox'
       {...props}
       sx={{
-        position: 'absolute',
+        position: 'fixed',
         opacity: 0,
         zIndex: -1,
         width: 1,
